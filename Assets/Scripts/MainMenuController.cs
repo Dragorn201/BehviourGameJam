@@ -10,7 +10,7 @@ public class MainMenuController : MonoBehaviour
     public CanvasGroup HowPanel;
     public CanvasGroup OptionPanel;
     public Image ScreenOverlay; // A full-screen dark UI Image
-    public float fadeDuration = 1.2f;
+    public float fadeDuration = 1.0f;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class MainMenuController : MonoBehaviour
         if (ScreenOverlay != null)
         {
             Color c = ScreenOverlay.color;
-            c.a = 0.9f;
+            c.a = 0.95f;
             ScreenOverlay.color = c;
         }
 
@@ -36,7 +36,7 @@ public class MainMenuController : MonoBehaviour
         // Fade screen from dark to light, then load game
         StartCoroutine(FadeScreenOverlay(0f, () =>
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Test_Scene_Donatien");
         }));
     }
 
