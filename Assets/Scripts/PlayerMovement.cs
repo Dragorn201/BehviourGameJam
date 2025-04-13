@@ -46,4 +46,14 @@ public class PlayerMovement : MonoBehaviour
     {
         return canMove;
     }    
+    
+    public void Jump()
+    {
+        if (Input.GetKey(""))
+        {
+            Vector3 currentPosition = transform.position;
+        }
+        
+        
+    }
 }
