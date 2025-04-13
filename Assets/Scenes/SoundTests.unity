@@ -330,6 +330,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b5ee1578d0a80f4da521ed0a14ec0ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wood: 0
+  wax: 0
+  coal: 0
+  batterie: 0
 --- !u!4 &315735879
 Transform:
   m_ObjectHideFlags: 0
@@ -469,6 +473,7 @@ MonoBehaviour:
   coalCount: 9
   waxCount: 5
   batteryCount: 3
+  tileParent: {fileID: 0}
 --- !u!4 &770865744
 Transform:
   m_ObjectHideFlags: 0
@@ -1308,6 +1313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   night: {fileID: 8754767814862189056, guid: b48e2bc2a9a630f4eb7fa71b1c9eb96e, type: 3}
+  musicManager: {fileID: 447146451}
 --- !u!4 &1838327494
 Transform:
   m_ObjectHideFlags: 0

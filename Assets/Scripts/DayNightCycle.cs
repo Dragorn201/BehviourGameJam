@@ -8,14 +8,13 @@ public class DayNightCycle : MonoBehaviour
 
     private bool isItDay = true;
     [SerializeField] GameObject night;
+    [SerializeField] GameObject musicManager;
     GameObject blackFading;
-    AudioSource musicDay;
-    AudioSource musicNight;
+    MusicManager music;
 
     private void Start()
     {
-       /* musicDay = MusicDay.GetComponent<AudioSource>();
-        musicNight = GetComponent<AudioSource>();*/
+        music = musicManager.GetComponent<MusicManager>();
         fromNightToDay();
     }
     // Update is called once per frame
@@ -63,10 +62,9 @@ public class DayNightCycle : MonoBehaviour
         // Freeze character movement
         GameObject.FindWithTag("Player").GetComponent<PlayerMovement>().freezePlayer();
         // Sounds
-        /*SoundManager.SoundManager.PlaySound(SoundType.BELLNIGHT);
+        SoundManager.SoundManager.PlaySound(SoundType.BELLNIGHT);
 
-        musicClip = Resources.Load<AudioClip>("Assets/Audio/Music/Middle Earth.wav");
-        music.PlayOneShot(musicClip);*/
+        music.PlayNightMusic();
     }
 
     private void fromNightToDay()
@@ -82,8 +80,7 @@ public class DayNightCycle : MonoBehaviour
         // Sounds
         SoundManager.SoundManager.PlaySound(SoundType.BELLDAY);
 
-        /*musicClip = Resources.Load<AudioClip>("Assets/Audio/Music/A Beautiful Discovery.wav");
-        music.PlayOneShot(musicClip);*/
+        music.PlayPeacefulMusic();
 
         Destroy(blackFading);
     }
