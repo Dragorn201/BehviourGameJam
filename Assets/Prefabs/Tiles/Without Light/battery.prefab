@@ -55,5 +55,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b120534eb9a3b48408c7c425e2db6b46, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2027796265678456766}
   m_SourcePrefab: {fileID: 100100000, guid: b120534eb9a3b48408c7c425e2db6b46, type: 3}
+--- !u!1 &740654190795342484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b120534eb9a3b48408c7c425e2db6b46, type: 3}
+  m_PrefabInstance: {fileID: 470130135619600325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2027796265678456766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740654190795342484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ressourceType: 
+  isLit: 0
+  ressourceQuantity: 0
+  regenerationCooldown: 0
+  lightGrassPrefab: {fileID: 0}
+  lightWoodPrefab: {fileID: 0}
+  lightCoalPrefab: {fileID: 0}
+  lightWaxPrefab: {fileID: 0}
+  lightBatteryPrefab: {fileID: 0}
