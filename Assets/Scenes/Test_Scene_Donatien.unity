@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayTime: 40
-  nightTime: 10
+  nightTime: 5
 --- !u!114 &1230919151
 MonoBehaviour:
   m_ObjectHideFlags: 0
