@@ -110,7 +110,7 @@ MonoBehaviour:
   ressourceType: Coal
   lightedTilePrefab: {fileID: 3334493781006842826, guid: 2f15a8b1f8472444d8581c2ca4e04695, type: 3}
   isLit: 0
-  ressourceQuantity: 0
+  ressourceQuantity: 1
   regenerationCooldown: 0
   harvestedRessourcePrefab: {fileID: 0}
 --- !u!64 &5970849445547020956
