@@ -1,3 +1,4 @@
+using SoundManager;
 using UnityEngine;
 
 public class RessourcesManager : MonoBehaviour
@@ -28,15 +29,19 @@ public class RessourcesManager : MonoBehaviour
             case "Wood":
                 wood += quantity;
                 Debug.Log("Added wood.");
+                SoundManager.SoundManager.PlaySound(SoundType.WOOD);
                 break;
             case "Wax":
                 wax += quantity;
+                SoundManager.SoundManager.PlaySound(SoundType.WAX);
                 break;
             case "Coal":
                 coal += quantity;
+                SoundManager.SoundManager.PlaySound(SoundType.COAL);
                 break;
             case "Batterie":
                 batterie += quantity;
+                SoundManager.SoundManager.PlaySound(SoundType.BATTERIE);
                 break;
 
         }

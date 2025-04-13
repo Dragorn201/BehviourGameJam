@@ -45,6 +45,24 @@ public class LightPlaceHolder : MonoBehaviour
             coroutine = waitToBuildLight(currentlySelectedLamp.GetComponent<Light>().getBuildingTime());
             StartCoroutine(coroutine);
 
+            switch(currentlySelectedLamp.name)
+            {
+                case "fireCamp":
+                    SoundManager.SoundManager.PlaySound(SoundManager.SoundType.CAMPFIRECRAFT);
+                    break;
+                case "torch":
+                    SoundManager.SoundManager.PlaySound(SoundManager.SoundType.TORCHCRAFT);
+                    break;
+                case "candleStick":
+                    SoundManager.SoundManager.PlaySound(SoundManager.SoundType.CANDLECRAFT);
+                    break;
+                case "greatCandleStick":
+                    SoundManager.SoundManager.PlaySound(SoundManager.SoundType.CHANDELIERCRAFT);
+                    break;
+                case "lamp":
+                    SoundManager.SoundManager.PlaySound(SoundManager.SoundType.LAMPCRAFT);
+                    break;
+            }
 
             //And consume the ressource
             //check wood
