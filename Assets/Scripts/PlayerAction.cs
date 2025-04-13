@@ -33,7 +33,7 @@ public class PlayerAction : MonoBehaviour
             //Check the tile the player is standing on
             currentRessource =  tilePlayerStandingOn.GetComponent<Tile>().GetRessourceType();
 
-            if (currentRessource=="None")
+            if (currentRessource=="Grass")
             {
                 // Add the script to place a light source depending on the one selected
                 lampPlaceholder.GetComponent<LightPlaceHolder>().createCurrentlySelectedLamp();
