@@ -19493,7 +19493,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 7.02e-43, z: 0, w: 1.09e-42}
+  m_BoundingSphereOverride: {x: 6.454e-42, y: -8.5248407e-19, z: 7.06e-43, w: 3.4e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -19594,10 +19594,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5644754101380838707, guid: da832e52c6c930c48b4b719921672cbb, type: 3}
-  - {fileID: 6370721014227720966, guid: da832e52c6c930c48b4b719921672cbb, type: 3}
-  - {fileID: 6411954523528444703, guid: da832e52c6c930c48b4b719921672cbb, type: 3}
-  - {fileID: -3810581299688668153, guid: da832e52c6c930c48b4b719921672cbb, type: 3}
+  - {fileID: 2100000, guid: 29cc578c2f25be84bb3bb9aaeb2fc69c, type: 2}
+  - {fileID: 2100000, guid: 2385014c528699f449b6dfa913de13d4, type: 2}
+  - {fileID: 2100000, guid: 2385014c528699f449b6dfa913de13d4, type: 2}
+  - {fileID: 2100000, guid: 2385014c528699f449b6dfa913de13d4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
