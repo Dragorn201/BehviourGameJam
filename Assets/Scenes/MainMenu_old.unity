@@ -3532,18 +3532,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'How To Play
+  m_text: 'WASD to move (or zqsd for Azerty keyboards)
 
-    How To Play
+    R to rotate the currently
+    selected light
 
-    How To Play
-
-    How To Play
-
-    How
-    To Play
-
-    How To Play'
+    spacebar to harvest ressource (implemented) and to build
+    the currently selected light (not implemented yet)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b818713d0f7fd394bb61d4ed318e0fc6, type: 2}
   m_sharedMaterial: {fileID: -7597665703621516289, guid: b818713d0f7fd394bb61d4ed318e0fc6, type: 2}
