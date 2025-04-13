@@ -733,6 +733,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BackToMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7513125151963971646, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 8143346644377600692, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
       propertyPath: m_Name
       value: Canvas_OldMenu
