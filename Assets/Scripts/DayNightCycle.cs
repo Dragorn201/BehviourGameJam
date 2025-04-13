@@ -1,3 +1,6 @@
+using MusicManagement;
+using SoundManager;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DayNightCycle : MonoBehaviour
@@ -5,11 +8,13 @@ public class DayNightCycle : MonoBehaviour
 
     private bool isItDay = true;
     [SerializeField] GameObject night;
+    [SerializeField] GameObject musicManager;
     GameObject blackFading;
-
+    MusicManager music;
 
     private void Start()
     {
+        music = musicManager.GetComponent<MusicManager>();
         fromNightToDay();
     }
     // Update is called once per frame
@@ -57,7 +62,9 @@ public class DayNightCycle : MonoBehaviour
         // Freeze character movement
         GameObject.FindWithTag("Player").GetComponent<PlayerMovement>().freezePlayer();
         // Sounds
+        SoundManager.SoundManager.PlaySound(SoundType.BELLNIGHT);
 
+        music.PlayNightMusic();
     }
 
     private void fromNightToDay()
@@ -71,6 +78,9 @@ public class DayNightCycle : MonoBehaviour
         // Unfreeze character movement
         GameObject.FindWithTag("Player").GetComponent<PlayerMovement>().unfreezePlayer();
         // Sounds
+        SoundManager.SoundManager.PlaySound(SoundType.BELLDAY);
+
+        music.PlayPeacefulMusic();
 
         Destroy(blackFading);
     }

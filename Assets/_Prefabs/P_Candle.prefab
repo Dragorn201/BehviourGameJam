@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 4258286523200160181}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0.8}
+  m_LocalPosition: {x: 0, y: -0, z: 0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -287,7 +287,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.6
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4798,7 +4798,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b175ae8ac24f184468248bfa2f4c8e98, type: 2}
+  - {fileID: 2100000, guid: c40b0e066b9f847098b8a76af5ff924f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4878,7 +4878,7 @@ Transform:
   m_GameObject: {fileID: 7438639295809606193}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.4, z: 0.4}
+  m_LocalPosition: {x: 0, y: -0.4, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5138,7 +5138,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.4
+      scalar: 0.3
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -9649,7 +9649,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b175ae8ac24f184468248bfa2f4c8e98, type: 2}
+  - {fileID: 2100000, guid: c40b0e066b9f847098b8a76af5ff924f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9745,7 +9745,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8890509273876813261}
-  m_Mesh: {fileID: -5731547941117289742, guid: e08e71edf79fa6940a8f07ae6053b802, type: 3}
+  m_Mesh: {fileID: -5731547941117289742, guid: 73e3147f49ad73f43b6418ec26c66aac, type: 3}
 --- !u!23 &396292931777796032
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9819,7 +9819,7 @@ Transform:
   m_GameObject: {fileID: 8933792411071076248}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -10079,7 +10079,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.4
+      scalar: 0.3
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -14590,7 +14590,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b175ae8ac24f184468248bfa2f4c8e98, type: 2}
+  - {fileID: 2100000, guid: c40b0e066b9f847098b8a76af5ff924f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

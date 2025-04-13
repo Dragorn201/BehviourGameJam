@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb1f188525053948ab74a5edc9d0743, type: 3}
+  m_Name: Sounds SO
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: WOOD
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 1a64006cd871f464989f08c57e322edb, type: 3}
+    - {fileID: 8300000, guid: 18bd9fa918572c94db742789582a1322, type: 3}
+    - {fileID: 8300000, guid: 866a3f7149830704d85b7ddb7a2d36c3, type: 3}
+    - {fileID: 8300000, guid: 9f864cafd8f65444fb9f0bae3bf24ebe, type: 3}
+    - {fileID: 8300000, guid: a981efaef6fd06343b83f49a093a3861, type: 3}
+  - name: COAL
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 7b07b9a855b74764e890090eef7655c8, type: 3}
+    - {fileID: 8300000, guid: f6360dd929bb8d643b0f6530e898e9f0, type: 3}
+    - {fileID: 8300000, guid: b56dc01c0d53497468b3e1289178009c, type: 3}
+    - {fileID: 8300000, guid: a2d931641afdc354fb5a67fe4b42860d, type: 3}
+    - {fileID: 8300000, guid: e4c6be3f9cc1de34eb28aca8c9d9f8f9, type: 3}
+  - name: WAX
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 3ec5ebe864abf4f4fb4541b419a181fc, type: 3}
+    - {fileID: 8300000, guid: 2c6e287989c283149bcc2e2e0938a807, type: 3}
+    - {fileID: 8300000, guid: 0cc8700c793231643aabeee8c0158851, type: 3}
+    - {fileID: 8300000, guid: 53ac0ab1f34847a4394c0a7f119b25be, type: 3}
+    - {fileID: 8300000, guid: f841d0959a63d5b40ac4b9dc53063e41, type: 3}
+  - name: BATTERIE
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 875c07f2773213b4a9b272597a3c0dc5, type: 3}
+    - {fileID: 8300000, guid: bcf51fb8a6f317a42b35617f02f59258, type: 3}
+    - {fileID: 8300000, guid: bf5378d96eec3864baa73bc943b4c675, type: 3}
+    - {fileID: 8300000, guid: 35227180d77dd564686d1d32b815d72e, type: 3}
+    - {fileID: 8300000, guid: 9708be0a6a17472419c2281b1e1369ac, type: 3}
+  - name: TREEFALL
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 910630b17de2a8e45bba0b495c066fec, type: 3}
+  - name: COALBREAK
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: d29d3160b0f4b464a8e6ecee83bda0fc, type: 3}
+  - name: WAXEND
+    volume: 1
+    mixer: {fileID: 0}
+    sounds: []
+  - name: BATTERYEND
+    volume: 1
+    mixer: {fileID: 0}
+    sounds: []
+  - name: TORCHCRAFT
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: b2a48fe24c706154d82385e93f769d1e, type: 3}
+  - name: CANDLECRAFT
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 4c42937849150c449b760ea88f12908e, type: 3}
+  - name: CAMPFIRECRAFT
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 7bd5dfd9a099f914b8ad89a66260fdcb, type: 3}
+  - name: CHANDELIERCRAFT
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 306f975b37745ed40b2aefa42381ddf3, type: 3}
+  - name: LAMPCRAFT
+    volume: 1
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: bd17d3e8591dc7944bd24a30fca10419, type: 3}
+  - name: TORCHLOOP
+    volume: 0.5
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 324b4d13ec8a58340b3a30cf9f413a89, type: 3}
+  - name: CANDLELOOP
+    volume: 1
+    mixer: {fileID: 0}
+    sounds: []
+  - name: CAMPFIRELOOP
+    volume: 0.578
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 5cd20bf4526004f4a9e2ae8dd8ef566b, type: 3}
+  - name: CHANDELIERLOOP
+    volume: 1
+    mixer: {fileID: 0}
+    sounds: []
+  - name: LAMPLOOP
+    volume: 0.86
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 979933ae71033c14e8eb3d8cec3f85e8, type: 3}
+  - name: BELLDAY
+    volume: 0.141
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 16f5c67189d2ac54cbcb48a1500b620c, type: 3}
+  - name: BELLNIGHT
+    volume: 0.18
+    mixer: {fileID: -9100694731060341090, guid: 7514056eeaa04cf439130106a73dfb39, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 993822f52e524c14dbbb30f3d4568e5a, type: 3}

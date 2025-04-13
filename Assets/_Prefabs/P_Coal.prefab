@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7357178294525335438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3fb0a86988d1be143a598c5fe2b8b422, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d94ef22f4d01e4b4aa47dd04d2d40940, type: 2}
+    - target: {fileID: 919132149155446097, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_Name
+      value: P_Coal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4925174696814018188}
+  m_SourcePrefab: {fileID: 100100000, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+--- !u!1 &7699074520646724319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+  m_PrefabInstance: {fileID: 7357178294525335438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4925174696814018188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7699074520646724319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ressourceType: Coal
+  lightedTilePrefab: {fileID: 3334493781006842826, guid: 2f15a8b1f8472444d8581c2ca4e04695, type: 3}
+  isLit: 0
+  ressourceQuantity: 0
+  regenerationCooldown: 0
+  harvestedRessourcePrefab: {fileID: 919132149155446097, guid: dca1569283ef24049bef920d0c0033ad, type: 3}
+  isHarvested: 0

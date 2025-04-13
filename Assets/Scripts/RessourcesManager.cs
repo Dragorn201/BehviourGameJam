@@ -3,10 +3,10 @@ using UnityEngine;
 public class RessourcesManager : MonoBehaviour
 {
     //Basic ressource manager system - Add new ressources if needed
-    private int wood;
-    private int wax;
-    private int coal;
-    private int batterie;
+    public int wood;
+    public int wax;
+    public int coal;
+    public int batterie;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +27,7 @@ public class RessourcesManager : MonoBehaviour
         {
             case "Wood":
                 wood += quantity;
+                Debug.Log("Added wood.");
                 break;
             case "Wax":
                 wax += quantity;
