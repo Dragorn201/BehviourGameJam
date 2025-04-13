@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ressourceType: 
+  ressourceType: Grass
   isLit: 0
   ressourceQuantity: 0
   regenerationCooldown: 0
