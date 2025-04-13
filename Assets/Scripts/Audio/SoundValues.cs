@@ -9,6 +9,16 @@ namespace SoundManager
         TREEFALL,
         COALBREAK,
         WAXEND,
-        BATTERYEND
+        BATTERYEND,
+        TORCHCRAFT,
+        CANDLECRAFT,
+        CAMPFIRECRAFT,
+        CHANDELIERCRAFT,
+        LAMPCRAFT,
+        TORCHLOOP,
+        CANDLELOOP,
+        CAMPFIRELOOP,
+        CHANDELIERLOOP,
+        LAMPLOOP,
     }
 }
