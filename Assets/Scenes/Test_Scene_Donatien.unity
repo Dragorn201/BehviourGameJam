@@ -753,10 +753,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileSize: 1.732
   grassPrefab: {fileID: 158876643494155533, guid: 104d24a833376474992da81bef50d8dc, type: 3}
-  woodPrefab: {fileID: 158876643494155533, guid: 0291050b3d01249f4a0e4985dd54b769, type: 3}
-  coalPrefab: {fileID: 158876643494155533, guid: 1442c0e96a1fc41ceb4d1cf9fb78a913, type: 3}
-  waxPrefab: {fileID: 158876643494155533, guid: d1ecba9b40dd64cd6a077c293f9f70a8, type: 3}
-  batteryPrefab: {fileID: 0}
+  woodPrefab: {fileID: 2755631833665948442, guid: a852d81c289194ffc93d11435ff2d864, type: 3}
+  coalPrefab: {fileID: 2342117765290848870, guid: 59e93ced11fc54c0b8932af80d014a61, type: 3}
+  waxPrefab: {fileID: 7532660069859946825, guid: e0a0f3ed2110840669915542432920db, type: 3}
+  batteryPrefab: {fileID: 740654190795342484, guid: b3342ee723fcd41a1ad70d7e8f8f1eb6, type: 3}
   grassCount: 62
   woodCount: 12
   coalCount: 9
@@ -869,6 +869,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b5ee1578d0a80f4da521ed0a14ec0ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wood: 0
+  wax: 0
+  coal: 0
+  batterie: 0
 --- !u!4 &1384802831
 Transform:
   m_ObjectHideFlags: 0
@@ -1187,7 +1191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ressourceManager: {fileID: 1384802829}
-  ressourceHarvestingWaitTime: 0
+  ressourceHarvestingWaitTime: 0.5
   lampPlaceholder: {fileID: 1752789965}
 --- !u!1001 &1752789964
 PrefabInstance:

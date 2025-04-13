@@ -27,11 +27,11 @@ public class Light : MonoBehaviour
             case "Wood":
                 return woodRessourceCost;
             case "Wax":
-                return woodRessourceCost;
+                return waxRessourceCost;
             case "Batterie":
-                return woodRessourceCost;
+                return batterieRessourceCost;
             case "Coal":
-                return woodRessourceCost;
+                return coalRessourceCost;
             default:
                 return 100;
         }

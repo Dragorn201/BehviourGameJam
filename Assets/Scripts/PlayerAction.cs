@@ -21,7 +21,6 @@ public class PlayerAction : MonoBehaviour
     {
         
         tilePlayerStandingOn = other.gameObject;
-        Debug.Log(tilePlayerStandingOn.GetComponent<Transform>().position);
         lampPlaceholder.GetComponent<LightMagnetToTile>().magnetTo(tilePlayerStandingOn.GetComponent<Transform>().position);
     }
 
@@ -63,7 +62,7 @@ public class PlayerAction : MonoBehaviour
         // suspend execution for waitTime
         yield return new WaitForSeconds(waitTime);
         ressourceManager.GetComponent<RessourcesManager>().addRessource(currentRessource, 1);
-        Debug.Log("Asked to add wood.");
+        Debug.Log(currentRessource);
         GetComponent<PlayerMovement>().unfreezePlayer();
     }
 }
