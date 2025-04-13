@@ -8,6 +8,7 @@ public class Tile : MonoBehaviour
     [SerializeField] bool isLit = false;
     [SerializeField] int ressourceQuantity;
     [SerializeField] int regenerationCooldown;
+    [SerializeField] GameObject harvestedRessourcePrefab;
 
     public string GetRessourceType()
     {
@@ -25,7 +26,6 @@ public class Tile : MonoBehaviour
     
     public void IlluminateTile()
     {
-
         if (!isLit)
         {
             isLit = true;
@@ -35,6 +35,19 @@ public class Tile : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Destroyed");
         }
-        
+    }
+    
+    public void HarvestRessource()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // Instantiate the prefab of the harvested ressource
+            Instantiate(harvestedRessourcePrefab, transform.position, transform.rotation);
+            Debug.Log("Harvested a ressource");
+        }
+        else
+        {
+            Debug.Log("No more ressources to harvest");
+        }
     }
 }
