@@ -14,4 +14,6 @@ public class LightMagnetToTile : MonoBehaviour
     {
         transform.Rotate(new Vector3(0, 0, 60));
     }
+
+
 }
