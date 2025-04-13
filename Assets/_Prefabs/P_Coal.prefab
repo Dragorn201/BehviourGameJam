@@ -116,7 +116,7 @@ MonoBehaviour:
   isLit: 0
   ressourceQuantity: 1
   regenerationCooldown: 0
-  harvestedRessourcePrefab: {fileID: 0}
+  harvestedRessourcePrefab: {fileID: 7699074520646724319}
   isHarvested: 0
 --- !u!64 &5970849445547020956
 MeshCollider:

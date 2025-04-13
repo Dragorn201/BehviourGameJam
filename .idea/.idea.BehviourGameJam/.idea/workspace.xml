@@ -7,6 +7,9 @@
     <list default="true" id="722e9279-8215-4a6c-b87c-0076e5f40bcc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BehviourGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BehviourGameJam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/P_Coal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/P_Coal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/P_battery.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/P_battery.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/waood_version2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/waood_version2.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
