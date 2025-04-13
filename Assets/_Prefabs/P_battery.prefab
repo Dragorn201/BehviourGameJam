@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4874247781679129592}
   - component: {fileID: 3378244141057026703}
   - component: {fileID: 3245667678714096756}
+  - component: {fileID: 4345879199176147727}
   m_Layer: 0
   m_Name: P_battery
   m_TagString: Untagged
@@ -64,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c44d2fda776a8384f9780f73f712f9b8, type: 2}
+  - {fileID: 2100000, guid: d94ef22f4d01e4b4aa47dd04d2d40940, type: 2}
   - {fileID: 2100000, guid: 97acb27570c54834989e364c3e3f1db1, type: 2}
   - {fileID: 2100000, guid: 97acb27570c54834989e364c3e3f1db1, type: 2}
   m_StaticBatchInfo:
@@ -88,3 +89,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4345879199176147727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899480818267199646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ressourceType: Batterie
+  lightedTilePrefab: {fileID: 6251946691094871300, guid: 117335442f20ea7428c34fbe3f540f39, type: 3}
+  isLit: 0
+  ressourceQuantity: 0
+  regenerationCooldown: 0
+  harvestedRessourcePrefab: {fileID: 0}
