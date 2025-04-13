@@ -3,7 +3,17 @@ guid: 43a241b57dbe18242b43aebeb594342b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buche.005
+    second: {fileID: 2100000, guid: e7075dcb43c4d944991a02b2f5d621c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_coal.002
+    second: {fileID: 2100000, guid: d94ef22f4d01e4b4aa47dd04d2d40940, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
