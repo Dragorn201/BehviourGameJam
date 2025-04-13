@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Peaceful
   m_EditorClassIdentifier: 
   _musicList:
-  - {fileID: 8300000, guid: d8d7245964385cb4eb0ac35d672b7f82, type: 3}
   - {fileID: 8300000, guid: 718b1eaef0c7cf442ae062efa111b9ab, type: 3}

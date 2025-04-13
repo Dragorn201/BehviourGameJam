@@ -567,6 +567,7 @@ GameObject:
   - component: {fileID: 788806323}
   - component: {fileID: 788806322}
   - component: {fileID: 788806321}
+  - component: {fileID: 788806328}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -720,6 +721,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &788806328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788806320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01de6010f546b742b3fb7848b47be0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundARC: {fileID: 0}
+  stoneARC: {fileID: 0}
+  grassARC: {fileID: 6418180475301049370, guid: 3803f11bba5487e4fa5f2fe2ef467d3f, type: 2}
 --- !u!1 &930563819
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,56 +871,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930563819}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1131969832
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1131969834}
-  - component: {fileID: 1131969833}
-  m_Layer: 0
-  m_Name: AmbienceManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1131969833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131969832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69f5b195820c81a4d9f5ac1b1ec1f792, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _musicClipGroups:
-  - {fileID: 11400000, guid: 4cdcd31d9c201014d95adabf309d263e, type: 2}
-  - {fileID: 11400000, guid: a3368b3f2d1bbe14baae05a33e785491, type: 2}
-  _musicMixes:
-  - {fileID: 11400000, guid: 6fe9c3234a6dde64d9b020b6236fb2b6, type: 2}
-  - {fileID: 11400000, guid: 00647b3db445cc74eb32fd8f409f21f6, type: 2}
---- !u!4 &1131969834
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131969832}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1314,6 +1280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   night: {fileID: 8754767814862189056, guid: b48e2bc2a9a630f4eb7fa71b1c9eb96e, type: 3}
   musicManager: {fileID: 447146451}
+  ambienceManager: {fileID: 0}
 --- !u!4 &1838327494
 Transform:
   m_ObjectHideFlags: 0
@@ -1537,5 +1504,4 @@ SceneRoots:
   - {fileID: 261916071}
   - {fileID: 2073071215}
   - {fileID: 447146453}
-  - {fileID: 1131969834}
   - {fileID: 930563822}
