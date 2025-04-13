@@ -42,7 +42,7 @@ public class MapGenerator : MonoBehaviour
         
         for (var i = 0; i < tilePositions.Count; i++)
         {
-            var tile = Instantiate(tilesList[i], tilePositions[i], Quaternion.Euler(new Vector3(90, 0, 90)));
+            var tile = Instantiate(tilesList[i], tilePositions[i], Quaternion.Euler(new Vector3(-90, 0, 90)));
 
             if (_tileParent != null)
             {

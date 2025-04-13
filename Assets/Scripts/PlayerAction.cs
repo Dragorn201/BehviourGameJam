@@ -31,7 +31,7 @@ public class PlayerAction : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //Check the tile the player is standing on
-            currentRessource =  tilePlayerStandingOn.GetComponent<Tile>().getRessourceType();
+            currentRessource =  tilePlayerStandingOn.GetComponent<Tile>().GetRessourceType();
 
             if (currentRessource=="None")
             {
