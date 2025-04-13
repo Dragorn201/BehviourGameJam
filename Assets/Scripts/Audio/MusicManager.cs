@@ -80,7 +80,7 @@ namespace MusicManagement
             PlayNextTrack();
         }
 
-        void ToggleCurrentMix()
+        public void ToggleCurrentMix()
         {
             _currentMixIndex = _currentMixIndex == 0 ? 1 : 0;
         }

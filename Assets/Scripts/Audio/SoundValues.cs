@@ -20,5 +20,7 @@ namespace SoundManager
         CAMPFIRELOOP,
         CHANDELIERLOOP,
         LAMPLOOP,
+        BELLDAY,
+        BELLNIGHT,
     }
 }
