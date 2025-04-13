@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 507876259282798963}
   - component: {fileID: 5613045626903993331}
   - component: {fileID: 5689121877909944008}
+  - component: {fileID: 6001318775160293152}
   m_Layer: 0
   m_Name: P_Lamp_wCollider
   m_TagString: Untagged
@@ -94,6 +95,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6001318775160293152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414348964296814267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844063c8d5904344d8241f8ff5e7a627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodRessourceCost: 0
+  waxRessourceCost: 0
+  batterieRessourceCost: 3
+  coalRessourceCost: 0
+  buildingTime: 1.5
 --- !u!1 &2352314288345868921
 GameObject:
   m_ObjectHideFlags: 0

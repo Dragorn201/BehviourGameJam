@@ -4862,6 +4862,7 @@ GameObject:
   - component: {fileID: 1876835277954515513}
   - component: {fileID: 6202972258168447398}
   - component: {fileID: 3110098243353473481}
+  - component: {fileID: 3851105068888106161}
   m_Layer: 0
   m_Name: P_FireCamp_wCollider
   m_TagString: Untagged
@@ -4946,6 +4947,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3851105068888106161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5074290429141296845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844063c8d5904344d8241f8ff5e7a627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodRessourceCost: 4
+  waxRessourceCost: 0
+  batterieRessourceCost: 0
+  coalRessourceCost: 1
+  buildingTime: 1.5
 --- !u!1001 &1257581728775102682
 PrefabInstance:
   m_ObjectHideFlags: 0

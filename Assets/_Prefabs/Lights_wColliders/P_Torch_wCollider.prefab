@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5654389973498477138}
   - component: {fileID: 1863322597666894998}
   - component: {fileID: 3637812833648414152}
+  - component: {fileID: -4914607725892078975}
   m_Layer: 0
   m_Name: P_Torch_wCollider
   m_TagString: Untagged
@@ -91,6 +92,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-4914607725892078975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441960246236878030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844063c8d5904344d8241f8ff5e7a627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodRessourceCost: 2
+  waxRessourceCost: 0
+  batterieRessourceCost: 0
+  coalRessourceCost: 0
+  buildingTime: 0.5
 --- !u!1 &5455114457383315542
 GameObject:
   m_ObjectHideFlags: 0

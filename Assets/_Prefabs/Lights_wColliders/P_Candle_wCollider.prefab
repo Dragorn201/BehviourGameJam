@@ -9713,6 +9713,7 @@ GameObject:
   - component: {fileID: 8581825501207245309}
   - component: {fileID: 5752286607037524203}
   - component: {fileID: 232511741488206577}
+  - component: {fileID: 6710124410095809073}
   m_Layer: 0
   m_Name: P_Candle_wCollider
   m_TagString: Untagged
@@ -9795,6 +9796,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6710124410095809073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3970607316841496423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844063c8d5904344d8241f8ff5e7a627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodRessourceCost: 0
+  waxRessourceCost: 2
+  batterieRessourceCost: 0
+  coalRessourceCost: 0
+  buildingTime: 0.5
 --- !u!1 &7880578205902877991
 GameObject:
   m_ObjectHideFlags: 0
