@@ -37,6 +37,8 @@ public class DayNightCycle : MonoBehaviour
         if (isItDay)
         {
             fromDayToNight();
+            Destroy(night);
+
         }
         else
         {
@@ -122,6 +124,5 @@ public class DayNightCycle : MonoBehaviour
                 break;
         }
 
-        Destroy(night);
     }
 }
