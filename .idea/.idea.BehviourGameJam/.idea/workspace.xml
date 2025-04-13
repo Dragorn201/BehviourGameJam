@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="722e9279-8215-4a6c-b87c-0076e5f40bcc" name="Changes" comment="" />
+    <list default="true" id="722e9279-8215-4a6c-b87c-0076e5f40bcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BehviourGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BehviourGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Scene_Omer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_Scene_Omer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +17,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Dragorn201/BehviourGameJam.git",
-    "accountId": "e2766662-64e8-4b20-a5a2-fa1af05bdd9a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dragorn201/BehviourGameJam.git&quot;,
+    &quot;accountId&quot;: &quot;e2766662-64e8-4b20-a5a2-fa1af05bdd9a&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@d680fce5716f/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Script__Development",
+    "git-widget-placeholder": "Script__Dev__Omer__2",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
