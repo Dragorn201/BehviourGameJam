@@ -36,7 +36,7 @@ public class MainMenuController : MonoBehaviour
         // Fade screen from dark to light, then load game
         StartCoroutine(FadeScreenOverlay(0f, () =>
         {
-            SceneManager.LoadScene("SoundTests");
+            SceneManager.LoadScene("Test_Scene_Donatien");
         }));
     }
 
