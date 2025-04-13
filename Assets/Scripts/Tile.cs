@@ -1,19 +1,13 @@
+using System.Dynamic;
 using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
     [SerializeField] string ressourceType;
+    [SerializeField] GameObject lightedTilePrefab;
     [SerializeField] bool isLit = false;
     [SerializeField] int ressourceQuantity;
     [SerializeField] int regenerationCooldown;
-    
-    
-    [Header("Lighted Tile Prefabs")]
-    public GameObject lightGrassPrefab;
-    public GameObject lightWoodPrefab;
-    public GameObject lightCoalPrefab;
-    public GameObject lightWaxPrefab;
-    public GameObject lightBatteryPrefab;
 
     public string GetRessourceType()
     {
@@ -31,7 +25,16 @@ public class Tile : MonoBehaviour
     
     public void IlluminateTile()
     {
-        isLit = true;
-        // Add light to the tile
+
+        if (!isLit)
+        {
+            isLit = true;
+            // Add light to the tile
+            Instantiate(lightedTilePrefab, transform.position, transform.rotation);
+            Debug.Log("Replaced the tile with a lighted one");
+            Destroy(gameObject);
+            Debug.Log("Destroyed");
+        }
+        
     }
 }

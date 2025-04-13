@@ -136,12 +136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ressourceType: 
+  ressourceType: Grass
+  lightedTilePrefab: {fileID: 158876643494155533, guid: 0291050b3d01249f4a0e4985dd54b769, type: 3}
   isLit: 0
   ressourceQuantity: 0
   regenerationCooldown: 0
-  lightGrassPrefab: {fileID: 0}
-  lightWoodPrefab: {fileID: 0}
-  lightCoalPrefab: {fileID: 0}
-  lightWaxPrefab: {fileID: 0}
-  lightBatteryPrefab: {fileID: 0}

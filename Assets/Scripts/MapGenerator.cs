@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class MapGenerator : MonoBehaviour
 {
@@ -20,15 +21,15 @@ public class MapGenerator : MonoBehaviour
     public int waxCount = 5;
     public int batteryCount = 3;
 
-    private Transform _tileParent;
+    public Transform tileParent;
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _tileParent = new GameObject("Tile Parent").transform;
-        _tileParent.SetParent(this.transform);
+        tileParent = new GameObject("Tile Parent").transform;
+        tileParent.SetParent(this.transform);
         
         GenerateMap();
 
@@ -44,9 +45,9 @@ public class MapGenerator : MonoBehaviour
         {
             var tile = Instantiate(tilesList[i], tilePositions[i], Quaternion.Euler(new Vector3(-90, 0, 90)));
 
-            if (_tileParent != null)
+            if (tileParent != null)
             {
-                tile.transform.SetParent(_tileParent);
+                tile.transform.SetParent(tileParent);
             }
         }
     }
@@ -134,9 +135,9 @@ public class MapGenerator : MonoBehaviour
             
             var tile = Instantiate(prefab, position, Quaternion.Euler(new Vector3(90, 0, 90)));
 
-            if (_tileParent != null)
+            if (tileParent != null)
             {
-                tile.transform.SetParent(_tileParent);
+                tile.transform.SetParent(tileParent);
             }
         }
     }

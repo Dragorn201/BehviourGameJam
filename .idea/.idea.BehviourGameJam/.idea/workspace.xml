@@ -6,15 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="722e9279-8215-4a6c-b87c-0076e5f40bcc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BehviourGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BehviourGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GrassTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GrassTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Without Light/battery.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Without Light/battery.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Without Light/coal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Without Light/coal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WoodTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WoodTile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Scene_Omer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_Scene_Omer.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Materials/M_Triangle.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Materials/M_Triangle.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Meshes/Aditonal_assets/grass.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Meshes/Aditonal_assets/grass.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Meshes/grass.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Meshes/grass.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Texture/T_Triangle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Texture/T_Triangle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_VFX/FX_Torch.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_VFX/FX_Torch.prefab.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "OEDaldal"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OEDaldal&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Dragorn201/BehviourGameJam.git&quot;,
@@ -40,9 +38,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@d680fce5716f/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2vfzhLlYOusoyX7ptz1FWDF8AkU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,7 +50,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Script__Dev__2__Omer__1",
+    "git-widget-placeholder": "Script__Dev__2__Omer__2.0",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
