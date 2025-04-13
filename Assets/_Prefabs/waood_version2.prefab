@@ -104,7 +104,7 @@ MonoBehaviour:
   isLit: 0
   ressourceQuantity: 0
   regenerationCooldown: 0
-  harvestedRessourcePrefab: {fileID: 919132149155446097, guid: af060e7ad636e4c4bba4670ad2c42db3, type: 3}
+  harvestedRessourcePrefab: {fileID: 6229073687025207498, guid: f3775abee29bb4224b68c175c1413089, type: 3}
   isHarvested: 0
 --- !u!54 &-3272505784171214435
 Rigidbody:
