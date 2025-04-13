@@ -223,6 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonType: 0
   menuController: {fileID: 129830531}
+  lightingController: {fileID: 0}
 --- !u!64 &494582533
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -385,6 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonType: 2
   menuController: {fileID: 129830531}
+  lightingController: {fileID: 0}
 --- !u!64 &702348806
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -505,6 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonType: 3
   menuController: {fileID: 129830531}
+  lightingController: {fileID: 0}
 --- !u!64 &824262448
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -648,6 +651,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SeePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 4072920468300887282, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_text
+      value: "Nathan Vasseur - Game Designer\nZakaria - 3D Artist\nDoussouba - VFX
+        Tech Art\nFiona - Tech Art\nLord Grim - Programming\nDonamougou - Programming\nConor
+        Geoghegan - Programming\nCl\xE9ment Tek - Audio - https://www.clementtek.com"
+      objectReference: {fileID: 0}
     - target: {fileID: 4353542696617887311, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -668,6 +677,46 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4924965148781420458, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062181927515863586, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31764707
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062181927515863586, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.g
+      value: 0.65882355
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062181927515863586, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483286597137361511, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31764707
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483286597137361511, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.g
+      value: 0.65882355
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483286597137361511, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650587016932217218, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31764707
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650587016932217218, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.g
+      value: 0.65882355
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650587016932217218, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8156863
+      objectReference: {fileID: 0}
     - target: {fileID: 6681046509188626445, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -687,6 +736,18 @@ PrefabInstance:
     - target: {fileID: 8143346644377600692, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
       propertyPath: m_Name
       value: Canvas_OldMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156423820423573856, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31764707
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156423820423573856, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.g
+      value: 0.65882355
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156423820423573856, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8156863
       objectReference: {fileID: 0}
     - target: {fileID: 8722730594099253872, guid: 931dd25e380464c43acd7c5b627a3c93, type: 3}
       propertyPath: m_Pivot.x
@@ -967,6 +1028,54 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 0}
+--- !u!1 &1981131528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1981131529}
+  - component: {fileID: 1981131530}
+  m_Layer: 0
+  m_Name: LightingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1981131529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981131528}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6596553, y: 2.039729, z: 5.8958473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1981131530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981131528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687652c89b2b5f54480180b0876ccea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainLight: {fileID: 509410023}
+  fadeDuration: 1.5
+  darkIntensity: 0.1
+  brightIntensity: 1
 --- !u!1001 &2045065249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1223,6 +1332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonType: 1
   menuController: {fileID: 129830531}
+  lightingController: {fileID: 0}
 --- !u!64 &2126650590
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1256,3 +1366,4 @@ SceneRoots:
   - {fileID: 1526049811}
   - {fileID: 129830532}
   - {fileID: 732445448}
+  - {fileID: 1981131529}
