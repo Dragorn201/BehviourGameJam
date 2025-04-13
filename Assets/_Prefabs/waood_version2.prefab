@@ -71,6 +71,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9c237016204b4081963ca8d92560a5c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4181557876600358827}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9c237016204b4081963ca8d92560a5c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3272505784171214435}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9c237016204b4081963ca8d92560a5c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -9099495139189554597}
   m_SourcePrefab: {fileID: 100100000, guid: b9c237016204b4081963ca8d92560a5c, type: 3}
 --- !u!1 &1397689779353819061 stripped
 GameObject:
@@ -95,3 +101,52 @@ MonoBehaviour:
   ressourceQuantity: 0
   regenerationCooldown: 0
   harvestedRessourcePrefab: {fileID: 0}
+--- !u!54 &-3272505784171214435
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397689779353819061}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!64 &-9099495139189554597
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397689779353819061}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6857689473578963052, guid: b9c237016204b4081963ca8d92560a5c, type: 3}
