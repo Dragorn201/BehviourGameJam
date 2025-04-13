@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 6c42d66b90c16a542864304bc86d5fb0
+guid: dca1569283ef24049bef920d0c0033ad
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock_coal
+    second: {fileID: 2100000, guid: 716539f44d1b2f2469a51e57134bbc69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_coal
+    second: {fileID: 2100000, guid: d94ef22f4d01e4b4aa47dd04d2d40940, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: coal_tile
+  m_Name: pure_tile
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -30,11 +30,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: f5aeb371d335081448c7038be7bd2555, type: 3}
+        m_Texture: {fileID: 2800000, guid: 378d59c41c08c724496fbcb4bbb543a8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 0581d980512eb7348b90dcfc87a68ce0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 69d482840f8b9fa45892acd97ba55b61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,19 +54,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f5aeb371d335081448c7038be7bd2555, type: 3}
+        m_Texture: {fileID: 2800000, guid: 378d59c41c08c724496fbcb4bbb543a8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 83ac66a798548864691b89d0cbd08ef8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 71f88d2ac64e35a43a560489bda1c3c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 52646d3e7144ce549b2424b4c439603a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 13e4bf12cef5b75418e617199ffe8744, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 3b5a8dd5f4ae0bb4aa6bc3ab71437f52, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1d4febde126663f4b99b2b17eb728956, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -119,13 +119,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.35733566, g: 0.66666657, b: 0.17819692, a: 1}
-    - _Color: {r: 0.35733563, g: 0.66666657, b: 0.17819688, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &5682742717781342442
+--- !u!114 &8998611505584402306
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

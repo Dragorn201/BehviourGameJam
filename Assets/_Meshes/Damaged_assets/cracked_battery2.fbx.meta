@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 6c42d66b90c16a542864304bc86d5fb0
+guid: f7853d63ab50d0046b84e5f9674a8ac6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_battery
+    second: {fileID: 2100000, guid: d94ef22f4d01e4b4aa47dd04d2d40940, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

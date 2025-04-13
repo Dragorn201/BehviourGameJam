@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 6c42d66b90c16a542864304bc86d5fb0
+guid: d560844f53576d24cb0c41876b8f908a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buche.002
+    second: {fileID: 2100000, guid: e7075dcb43c4d944991a02b2f5d621c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile.001
+    second: {fileID: 2100000, guid: d94ef22f4d01e4b4aa47dd04d2d40940, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
