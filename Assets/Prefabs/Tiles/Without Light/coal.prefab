@@ -9,6 +9,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 19abc12236e551f4b99390ea606959d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.067759
       objectReference: {fileID: 0}
@@ -84,14 +96,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ressourceType: Coal
+  lightedTilePrefab: {fileID: 0}
   isLit: 0
   ressourceQuantity: 1
   regenerationCooldown: 0
-  lightGrassPrefab: {fileID: 0}
-  lightWoodPrefab: {fileID: 0}
-  lightCoalPrefab: {fileID: 0}
-  lightWaxPrefab: {fileID: 0}
-  lightBatteryPrefab: {fileID: 0}
 --- !u!64 &8283990994434792819
 MeshCollider:
   m_ObjectHideFlags: 0
