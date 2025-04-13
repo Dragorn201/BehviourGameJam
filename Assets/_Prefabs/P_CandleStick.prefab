@@ -19538,7 +19538,7 @@ GameObject:
   - component: {fileID: 4816502567977105831}
   m_Layer: 0
   m_Name: P_CandleStick
-  m_TagString: Untagged
+  m_TagString: Light
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

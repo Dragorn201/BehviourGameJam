@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 83206989694287407}
   m_Layer: 0
   m_Name: P_battery
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,12 +103,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ressourceType: Batterie
+  ressourceType: Battery
   lightedTilePrefab: {fileID: 6251946691094871300, guid: 117335442f20ea7428c34fbe3f540f39, type: 3}
   isLit: 0
   ressourceQuantity: 0
   regenerationCooldown: 0
-  harvestedRessourcePrefab: {fileID: 0}
+  harvestedRessourcePrefab: {fileID: 919132149155446097, guid: f7853d63ab50d0046b84e5f9674a8ac6, type: 3}
+  isHarvested: 0
 --- !u!64 &-9097571120743917236
 MeshCollider:
   m_ObjectHideFlags: 0

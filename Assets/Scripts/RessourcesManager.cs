@@ -39,7 +39,7 @@ public class RessourcesManager : MonoBehaviour
                 coal += quantity;
                 SoundManager.SoundManager.PlaySound(SoundType.COAL);
                 break;
-            case "Batterie":
+            case "Battery":
                 batterie += quantity;
                 SoundManager.SoundManager.PlaySound(SoundType.BATTERIE);
                 break;

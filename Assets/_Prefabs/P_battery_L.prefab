@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2074728407400024578}
   - component: {fileID: -3889305468266629933}
   - component: {fileID: 5449539257197289256}
+  - component: {fileID: 1057180362181481192}
   m_Layer: 0
   m_Name: P_battery_L
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,3 +140,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1057180362181481192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251946691094871300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ressourceType: Battery
+  lightedTilePrefab: {fileID: 0}
+  isLit: 1
+  ressourceQuantity: 0
+  regenerationCooldown: 0
+  harvestedRessourcePrefab: {fileID: 919132149155446097, guid: f7853d63ab50d0046b84e5f9674a8ac6, type: 3}
+  isHarvested: 0

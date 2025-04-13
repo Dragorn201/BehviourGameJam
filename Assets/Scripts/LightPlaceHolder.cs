@@ -45,12 +45,13 @@ public class LightPlaceHolder : MonoBehaviour
             coroutine = waitToBuildLight(currentlySelectedLamp.GetComponent<Light>().getBuildingTime());
             StartCoroutine(coroutine);
 
-            switch(currentlySelectedLamp.name)
+            Debug.Log("Lamp "+currentlySelectedLamp.name);
+            switch (currentlySelectedLamp.name)
             {
                 case "fireCamp":
                     SoundManager.SoundManager.PlaySound(SoundManager.SoundType.CAMPFIRECRAFT);
                     break;
-                case "torch":
+                case "P_Torch_wCollider":
                     SoundManager.SoundManager.PlaySound(SoundManager.SoundType.TORCHCRAFT);
                     break;
                 case "candleStick":
