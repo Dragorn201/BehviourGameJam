@@ -18,7 +18,7 @@ public class MainMenuController : MonoBehaviour
         if (ScreenOverlay != null)
         {
             Color c = ScreenOverlay.color;
-            c.a = 0.95f;
+            c.a = 0.6f;
             ScreenOverlay.color = c;
         }
 
@@ -57,6 +57,18 @@ public class MainMenuController : MonoBehaviour
     public void BackToMenu(CanvasGroup fromPanel)
     {
         StartCoroutine(SwitchPanels(fromPanel, MainMenu));
+    }
+
+    // Need for the new 3D menu, can maybe clean this up later
+    public void ShowCreditsPanel()
+    {
+        SeePanel(CreditsPanel);
+    }
+
+    // needed for the new 3D menu, can maybe clean this up later
+    public void ShowTutorialPanel()
+    {
+        SeePanel(HowPanel);
     }
 
     private IEnumerator SwitchPanels(CanvasGroup from, CanvasGroup to)
