@@ -9,6 +9,7 @@ public class Tile : MonoBehaviour
     [SerializeField] int ressourceQuantity;
     [SerializeField] int regenerationCooldown;
     [SerializeField] GameObject harvestedRessourcePrefab;
+    public bool isHarvested;
 
     public string GetRessourceType()
     {
@@ -39,15 +40,12 @@ public class Tile : MonoBehaviour
     
     public void HarvestRessource()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!isHarvested)
         {
+            isHarvested = true;
             // Instantiate the prefab of the harvested ressource
             Instantiate(harvestedRessourcePrefab, transform.position, transform.rotation);
-            Debug.Log("Harvested a ressource");
-        }
-        else
-        {
-            Debug.Log("No more ressources to harvest");
+            Destroy(gameObject);
         }
     }
 }

@@ -8,9 +8,10 @@ public class PlayerAction : MonoBehaviour
     private string currentRessource;
 
     private IEnumerator coroutine;
-    [SerializeField] float ressourceHarvestingWaitTime;
 
     [SerializeField] GameObject lampPlaceholder;
+    
+    private GameObject tile;
 
     private void Start()
     {
@@ -32,15 +33,30 @@ public class PlayerAction : MonoBehaviour
             //Check the tile the player is standing on
             currentRessource =  tilePlayerStandingOn.GetComponent<Tile>().GetRessourceType();
 
-            if (currentRessource=="Grass")
+            switch (currentRessource)
             {
-                // Add the script to place a light source depending on the one selected
-                lampPlaceholder.GetComponent<LightPlaceHolder>().createCurrentlySelectedLamp();
-            }
-            else
-            {
-                coroutine = waitToCollectRessource(ressourceHarvestingWaitTime);
-                StartCoroutine(coroutine);
+                case "Grass":
+                    lampPlaceholder.GetComponent<LightPlaceHolder>().createCurrentlySelectedLamp();
+                    break;
+                case "Wood":
+                    coroutine = waitToCollectRessource(2);
+                    StartCoroutine(coroutine);
+                    break;
+                case "Coal":
+                    coroutine = waitToCollectRessource(2);
+                    StartCoroutine(coroutine);
+                    break;
+                case "Wax":
+                    coroutine = waitToCollectRessource(3);
+                    StartCoroutine(coroutine);
+                    break;
+                case "Battery":
+                    coroutine = waitToCollectRessource(4);
+                    StartCoroutine(coroutine);
+                    break;
+                default:
+                    Debug.Log("No ressource found");
+                    break;
             }
 
         }
@@ -64,5 +80,6 @@ public class PlayerAction : MonoBehaviour
         ressourceManager.GetComponent<RessourcesManager>().addRessource(currentRessource, 1);
         Debug.Log(currentRessource);
         GetComponent<PlayerMovement>().unfreezePlayer();
+        tilePlayerStandingOn.GetComponent<Tile>().HarvestRessource();
     }
 }

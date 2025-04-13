@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4456013889086038189}
   - component: {fileID: 2351931429612322657}
   - component: {fileID: 2074728407400024578}
+  - component: {fileID: -8543917207055379881}
   m_Layer: 0
   m_Name: P_battery_L
   m_TagString: Untagged
@@ -88,3 +89,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-8543917207055379881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251946691094871300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86917b22beb9a144ab9c361140d4bf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ressourceType: 
+  lightedTilePrefab: {fileID: 0}
+  isLit: 1
+  ressourceQuantity: 0
+  regenerationCooldown: 0
+  harvestedRessourcePrefab: {fileID: 0}
+  isHarvested: 0
