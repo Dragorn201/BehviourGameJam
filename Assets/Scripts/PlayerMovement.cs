@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private bool canMove = true;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (canMove)
         {
