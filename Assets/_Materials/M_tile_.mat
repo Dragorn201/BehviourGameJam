@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: battery_tile
+  m_Name: M_tile_
   m_Shader: {fileID: -6465566751694194690, guid: bb93d3c9e3535b04086ce43bf124af70, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 3266d051dd2551e47bcfe10db3a74c08, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2dbde73e5f7b39148a291282fb1d6657, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskedTexture:
@@ -122,7 +122,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LightPower: 2
+    - _LightPower: 0
     - _MaskTextures: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
