@@ -27,6 +27,7 @@ public class RessourcesManager : MonoBehaviour
         {
             case "Wood":
                 wood += quantity;
+                Debug.Log("Added wood.");
                 break;
             case "Wax":
                 wax += quantity;
