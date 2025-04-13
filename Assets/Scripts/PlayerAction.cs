@@ -36,14 +36,12 @@ public class PlayerAction : MonoBehaviour
             if (currentRessource=="None")
             {
                 // Add the script to place a light source depending on the one selected
-                    
+                lampPlaceholder.GetComponent<LightPlaceHolder>().createCurrentlySelectedLamp();
             }
             else
             {
                 coroutine = waitToCollectRessource(ressourceHarvestingWaitTime);
                 StartCoroutine(coroutine);
-
-
             }
 
         }
