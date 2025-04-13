@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using Mono.Cecil;
+using SoundManager;
 
 public class PlayerAction : MonoBehaviour
 {
@@ -75,6 +77,22 @@ public class PlayerAction : MonoBehaviour
     IEnumerator waitToCollectRessource(float waitTime)
     {
         GetComponent<PlayerMovement>().freezePlayer();
+        switch (currentRessource)
+        {
+            case "Wood":
+                SoundManager.SoundManager.PlaySound(SoundType.WOOD);
+                break;
+            case "Wax":
+                SoundManager.SoundManager.PlaySound(SoundType.WAX);
+                break;
+            case "Coal":
+                SoundManager.SoundManager.PlaySound(SoundType.COAL);
+                break;
+            case "Battery":
+                SoundManager.SoundManager.PlaySound(SoundType.BATTERIE);
+                break;
+
+        }
         // suspend execution for waitTime
         yield return new WaitForSeconds(waitTime);
         ressourceManager.GetComponent<RessourcesManager>().addRessource(currentRessource, 1);

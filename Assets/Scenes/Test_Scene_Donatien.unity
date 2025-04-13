@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99960dbc386b05948b44beffd7852110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dayTime: 55
+  dayTime: 40
   nightTime: 10
 --- !u!114 &1230919151
 MonoBehaviour:
@@ -926,6 +926,10 @@ PrefabInstance:
     - target: {fileID: 5212261324599182622, guid: 8d7e9212d50df354881c979ee003aaa5, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605999439745961343, guid: 8d7e9212d50df354881c979ee003aaa5, type: 3}
+      propertyPath: playerVelocity
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
