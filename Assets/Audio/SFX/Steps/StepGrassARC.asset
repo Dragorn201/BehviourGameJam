@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-5623346262135255299
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrass-005_{-5623346262135255299}
+  m_AudioClip: {fileID: 8300000, guid: 6ec678d7e3050044cbdbe20171be45e5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3936887717633668854
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrass-004_{-3936887717633668854}
+  m_AudioClip: {fileID: 8300000, guid: 765711c1f77028c4eb8c3ca427e36ddc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3905524137070799317
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrass-007_{-3905524137070799317}
+  m_AudioClip: {fileID: 8300000, guid: d9a59826ae82931448f4ee93dd7b0452, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2815900651728947274
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrass-006_{-2815900651728947274}
+  m_AudioClip: {fileID: 8300000, guid: de7305b6823cbb84bb5f1919fd89b77c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2340428311286696020
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrass-002_{2340428311286696020}
+  m_AudioClip: {fileID: 8300000, guid: 8e5c9b1a65c57184d8e656e7b8940780, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrassARC
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 7807279405220297826}
+  - {fileID: 2340428311286696020}
+  - {fileID: 8544131948655198479}
+  - {fileID: -3936887717633668854}
+  - {fileID: -5623346262135255299}
+  - {fileID: -2815900651728947274}
+  - {fileID: -3905524137070799317}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &7807279405220297826
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrass-001_{7807279405220297826}
+  m_AudioClip: {fileID: 8300000, guid: faa3a89d96636064a93cbe5313047d08, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8544131948655198479
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepGrass-003_{8544131948655198479}
+  m_AudioClip: {fileID: 8300000, guid: 153d1afa23b5a1b4f9fd6a5313e23f50, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

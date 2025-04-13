@@ -1,54 +1,146 @@
 using System;
+using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class MapGenerator : MonoBehaviour
 {
-    public int mapWidth = 10; // Width of the map
-    public int mapHeight = 10; // Height of the map
+
     public float tileSize = 1.732f; // Size of each tile
-    public GameObject tilePrefab; // Prefab for the hex tile
-    
-    
+
+    [Header("Tile Prefabs")] public GameObject grassPrefab;
+    public GameObject woodPrefab;
+    public GameObject coalPrefab;
+    public GameObject waxPrefab;
+    public GameObject batteryPrefab;
+
+    [Header("Tile Counts")] public int grassCount = 62;
+    public int woodCount = 12;
+    public int coalCount = 9;
+    public int waxCount = 5;
+    public int batteryCount = 3;
+
+    public Transform tileParent;
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        createMap();
-    }
-    
+        tileParent = new GameObject("Tile Parent").transform;
+        tileParent.SetParent(this.transform);
+        
+        GenerateMap();
 
-    private Vector2 getHexOffset(int x, int z)
+    }
+
+    void GenerateMap()
+    {
+        var tilePositions = CreateTilePositions();
+        var tilesList = CreateTilesList();
+        ShuffleTilesList(tilesList);
+        
+        for (var i = 0; i < tilePositions.Count; i++)
+        {
+            var tile = Instantiate(tilesList[i], tilePositions[i], Quaternion.Euler(new Vector3(-90, 0, 90)));
+
+            if (tileParent != null)
+            {
+                tile.transform.SetParent(tileParent);
+            }
+        }
+    }
+
+    // Connecting the tiles in the hexagonal grid
+
+    private Vector2 GetHexOffset(int x, int z)
     {
         var zOffset = z * tileSize + ((x % 2 == 1) ? tileSize * 0.5f : 0); // Vertical offset for hex tiles
-        
+
         return new Vector2(0, zOffset);
     }
-    void createMap()
-    {
-        var first = 6;
-        var second = 6;
 
-        for (var x = 0; x < 6; x++) 
+    // List of tile positions so I can use them when randomizing the map
+
+    List<Vector3> CreateTilePositions()
+    {
+        var tilePositions = new List<Vector3>();
+
+        for (var x = 0; x < 11; x++)
         {
-            for (var z = 0; z < first; z++)
+            var numRows = 11 - Mathf.Abs(x - 5);
+
+            for (var z = 0; z < numRows; z++)
             {
-                var offset = getHexOffset(x, z);
-                
-                var pos = new Vector3(x * 1.5f, 0, offset.y - (Mathf.Ceil((x+1)/2)*tileSize));
-                var tile = Instantiate(tilePrefab, pos, Quaternion.Euler(new Vector3(90,0,90)));
+                var offset = GetHexOffset(x, z);
+
+                var zOffset = (x < 6)
+                    ? offset.y - (Mathf.Ceil((x + 1) / 2) * tileSize)
+                    : offset.y + (Mathf.Ceil((x) / 2) * tileSize) - (5 * tileSize);
+
+                tilePositions.Add(new Vector3(x * 1.5f, 0, zOffset));
             }
-            first++;
         }
+        return tilePositions;
+    }
+
+    // Store the tile prefabs in a list
+
+    List<GameObject> CreateTilesList()
+    {
+        var tilesList = new List<GameObject>();
         
-        for (var x = 10; x > 5; x--) 
+        AddTilesToList(tilesList, grassPrefab, grassCount);
+        AddTilesToList(tilesList, woodPrefab, woodCount);
+        AddTilesToList(tilesList, coalPrefab, coalCount);
+        AddTilesToList(tilesList, waxPrefab, waxCount);
+        AddTilesToList(tilesList, batteryPrefab, batteryCount);
+        
+        return tilesList;
+    }
+
+    // Helper function to add tile prefabs to the list
+
+    private static void AddTilesToList(List<GameObject> tilesList, GameObject tilePrefab, int prefabCount)
+    {
+        for (var i = 0; i < prefabCount; i++)
         {
-            for (var z = 0; z < second; z++)
+            tilesList.Add(tilePrefab);
+        }
+    }
+
+    // Shuffling the list of tile prefabs
+
+    void ShuffleTilesList(List<GameObject> tilesList) 
+    {
+        var rng = new System.Random();
+        
+        var n = tilesList.Count;
+        while (n > 1)
+        {
+            n--;
+            var k = rng.Next(n + 1);
+            (tilesList[k], tilesList[n]) = (tilesList[n], tilesList[k]);
+        }
+    }
+
+    // Instantiating tiles in the scene
+    void PlaceTiles(List<Vector3> positions, List<GameObject> tilesList)
+    {
+        for (var i = 0; i < 91; i++)
+        {
+            var prefab = tilesList[i];
+            var position = positions[i];
+            
+            var tile = Instantiate(prefab, position, Quaternion.Euler(new Vector3(90, 0, 90)));
+
+            if (tileParent != null)
             {
-                var offset = getHexOffset(x, z);
-                
-                var pos = new Vector3(x * 1.5f, 0, offset.y + (Mathf.Ceil(x/2)*tileSize) - (5*tileSize));
-                var tile = Instantiate(tilePrefab, pos, Quaternion.Euler(new Vector3(90,0,90)));
+                tile.transform.SetParent(tileParent);
             }
-            second++;
         }
     }
 }
+    
+    
