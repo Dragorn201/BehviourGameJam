@@ -11,6 +11,7 @@ public class DayNightCycle : MonoBehaviour
     [SerializeField] GameObject musicManager;
     GameObject blackFading;
     MusicManager music;
+    public static int dayCount = 0;
 
     private void Start()
     {
@@ -53,10 +54,7 @@ public class DayNightCycle : MonoBehaviour
         blackFading = Instantiate(night);
         //Reset timer to night time and start it
         GetComponent<Timer>().StartNightTimer();
-        // Delete not litted tiles
-
-        // Delete all lights
-
+        
         // Update ressources on tiles
 
         // Freeze character movement
@@ -72,6 +70,7 @@ public class DayNightCycle : MonoBehaviour
         Debug.Log("DAY !");
         // Change day info
         isItDay = true;
+        dayCount++;
 
         // Reset timer to daytime and start it
         GetComponent<Timer>().StartDayTimer();
@@ -81,7 +80,48 @@ public class DayNightCycle : MonoBehaviour
         SoundManager.SoundManager.PlaySound(SoundType.BELLDAY);
 
         music.PlayPeacefulMusic();
+        
+        // Delete not litted tiles
+        GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");
+        foreach (GameObject tile in tiles)
+        {
+            if (!tile.GetComponent<Tile>().GetIsLit())
+            {
+                Destroy(tile);
+            }
+        }
+        
+        // Delete all lights
+        GameObject[] lights = GameObject.FindGameObjectsWithTag("Light");
+        System.Random rnd = new System.Random();
 
-        Destroy(blackFading);
+        switch (dayCount)
+        {
+            case 1:
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    int randomIndex = rnd.Next(lights.Length);
+                    Destroy(lights[randomIndex]);
+                }
+
+                break;
+            }
+            case 2:
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    int randomIndex = rnd.Next(lights.Length);
+                    Destroy(lights[randomIndex]);
+                }
+
+                break;
+            }
+            default:
+                dayCount = 0;
+                break;
+        }
+
+        Destroy(night);
     }
 }
