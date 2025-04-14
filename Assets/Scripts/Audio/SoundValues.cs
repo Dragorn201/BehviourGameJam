@@ -22,5 +22,8 @@ namespace SoundManager
         LAMPLOOP,
         BELLDAY,
         BELLNIGHT,
+        BUTTON,
+        PLAYBUTTON,
+        BACKBUTTON,
     }
 }

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
+using SoundManager;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class MainMenuController : MonoBehaviour
 
     public void PlayGame()
     {
+
+        SoundManager.SoundManager.PlaySound(SoundType.PLAYBUTTON);
         // Fade screen from dark to light, then load game
         StartCoroutine(FadeScreenOverlay(0f, () =>
         {
@@ -42,6 +45,7 @@ public class MainMenuController : MonoBehaviour
 
     public void QuitGame()
     {
+        SoundManager.SoundManager.PlaySound(SoundType.BUTTON);
         // Fade screen to black, then quit
         StartCoroutine(FadeScreenOverlay(1f, () =>
         {
@@ -51,11 +55,13 @@ public class MainMenuController : MonoBehaviour
 
     public void SeePanel(CanvasGroup targetPanel)
     {
+        SoundManager.SoundManager.PlaySound(SoundType.BUTTON);
         StartCoroutine(SwitchPanels(MainMenu, targetPanel));
     }
 
     public void BackToMenu(CanvasGroup fromPanel)
     {
+        SoundManager.SoundManager.PlaySound(SoundType.BACKBUTTON);
         StartCoroutine(SwitchPanels(fromPanel, MainMenu));
     }
 
@@ -124,7 +130,7 @@ public class MainMenuController : MonoBehaviour
             ScreenOverlay.color = c;
             yield return null;
         }
-
+        yield return new WaitForSeconds(3);
         c.a = targetAlpha;
         ScreenOverlay.color = c;
         onComplete?.Invoke();
