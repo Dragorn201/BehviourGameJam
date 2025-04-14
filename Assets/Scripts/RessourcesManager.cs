@@ -29,7 +29,7 @@ public class RessourcesManager : MonoBehaviour
             case "Wood":
                 wood += quantity;
                 Debug.Log("Added wood.");
-                SoundManager.SoundManager.PlaySound(SoundType.WOOD);
+                SoundManager.SoundManager.PlaySound(SoundType.TREEFALL);
                 break;
             case "Wax":
                 wax += quantity;
@@ -37,7 +37,7 @@ public class RessourcesManager : MonoBehaviour
                 break;
             case "Coal":
                 coal += quantity;
-                SoundManager.SoundManager.PlaySound(SoundType.COAL);
+                SoundManager.SoundManager.PlaySound(SoundType.COALBREAK);
                 break;
             case "Battery":
                 batterie += quantity;

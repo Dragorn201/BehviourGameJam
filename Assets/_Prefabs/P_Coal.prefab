@@ -116,7 +116,7 @@ MonoBehaviour:
   isLit: 0
   ressourceQuantity: 1
   regenerationCooldown: 0
-  harvestedRessourcePrefab: {fileID: 7699074520646724319}
+  harvestedRessourcePrefab: {fileID: 5324500752343470433, guid: 72f437a8bf5264107b10654837c9220d, type: 3}
   isHarvested: 0
 --- !u!64 &5970849445547020956
 MeshCollider:
