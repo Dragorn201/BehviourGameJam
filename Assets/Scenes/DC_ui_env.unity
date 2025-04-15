@@ -1721,6 +1721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ui_test
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cff76df33e9b7484e8eb7dd3ea9ab276, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1170970068873931921, guid: cff76df33e9b7484e8eb7dd3ea9ab276, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
